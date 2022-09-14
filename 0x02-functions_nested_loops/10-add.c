@@ -9,8 +9,7 @@
 #include "main.h"
 int add(int a, int b)
 {
-	r = a + b;
-	return (r);
+	return (a + b);
 }
 
 
