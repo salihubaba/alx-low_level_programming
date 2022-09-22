@@ -8,16 +8,12 @@
 #include "main.h"
 char *_strncpy(char *dest, char *src, int n)
 {
-	int i = 0;
+	int i;
 
-	while (i >= 0)
+	for (i = 0; i < n && src[i] != '\0'; i++)
 	{
-		if (*(src + i) == '\0')
-		{
-			break;
-		}
 		dest[i] = src[i];
-		i++;
 	}
+	return (dest);
 }
 
