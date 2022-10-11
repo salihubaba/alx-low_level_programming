@@ -1,6 +1,9 @@
 #ifndef _DOG_
 #define _DOG_
 
+
+typedef struct dog dog_t;
+
 /**
  * struct dog - a structure for dog properties
  * @name: name of the dog
